@@ -1,0 +1,28 @@
+name: jupyterlab-ide-demo
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # runtime dependencies
+  - python ==3.9.*
+  - jupyterlab ==3.*
+  - notebook=6
+  # build dependencies
+  - nodejs
+  # for python language server (and development)
+  - black
+  - flake8 >=3.5
+  - isort
+  - mypy
+  - pip
+  - pylint
+  - python-language-server
+  - pyls-black
+  - pyls-isort
+  - pyls-mypy
+  - ruamel_yaml
+  # debugger dependencies
+  - ptvsd
+  - xeus-python ==0.12.*
