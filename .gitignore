@@ -127,3 +127,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.local/share/jupyter/runtime/jpserver-17-open.html
+.local/share/jupyter/runtime/jpserver-17.json
